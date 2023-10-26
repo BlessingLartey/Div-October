@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 0.5rem;
+    background-color: black;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.left .top{
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.wrapper .left{
+    width: 15%;
+    height: 70rem;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin:0 auto;
+    position: fixed;
+    color: #fff;
+}
+
+.wrapper .left .small{
+    width: 100%;
+    height: 50rem;
+    padding: 1rem 0.8rem;
+    text-align: center;
+    margin:0 auto;
+
+}
+
+.wrapper .left .small ul{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    list-style: none;
+} 
+
+.wrapper .left .small ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+.wrapper .middle {
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    /* z-index: 100; */
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-left: 15%;
+}
+
+.wrapper .middle .top{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: scroll;
+
+
+}
+
+.image-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.4rem;
+    color: white;
+}
+
+.image-circle img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container .post img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.wrapper .right{
+    width: 35%;
+    height: 100%;
+    padding: 1.5rem;
+    position: fixed;
+    right: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(33, 98, 240);
+    border: none;
+    border-radius: 4%;
+    height: 2rem;
+    width: 10rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.others{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    
+}
+
